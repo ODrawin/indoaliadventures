@@ -1,0 +1,38 @@
+.botoes{
+    text-align: center;
+}
+
+.botao{
+    margin-top: 8%;
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 75px;
+    border-radius: 5px;
+    background-color: rgb(109, 52, 19);
+    box-shadow: 0 0 0 5px rgb(51, 19, 0);
+    color: rgb(241, 185, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+
+.indoali{
+   cursor: pointer;
+}
+.indoali:hover{
+   transform: scale(1.1);
+}
+.indoali:active{
+    transform: scale(0.9);
+}
+
+.mario{
+    cursor: pointer;
+ }
+ .mario:hover{
+    transform: scale(1.1);
+ }
+ .mario:active{
+     transform: scale(0.9);
+ }

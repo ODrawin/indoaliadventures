@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(255, 255, 255), rgb(97, 97, 97));
+}
+
+.botoes{
+    text-align: center;
+}
+
+.foto{
+    width: 15%;
+}
+
+.botao{
+    margin-top: 15%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 20%;
+    height: 75px;
+    border-radius: 5px;
+    background-color: rgb(109, 52, 19);
+    box-shadow: 0 0 0 5px rgb(51, 19, 0);
+    color: rgb(241, 185, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+.botao:hover{
+    transform: scale(1.1);
+}
+
+.botao:active{
+    transform: scale(0.9);
+    background-color: rgb(138, 72, 34);
+    box-shadow: 0 0 0 5px rgb(51, 19, 0);
+}
